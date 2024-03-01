@@ -7,8 +7,8 @@ import Maps from '../pages/Maps';
 const Routes = () => {
   return (
     <Switch>
-      <Route path='/confmaps/maps' component={Maps}/>
-      <Route path='/confmaps' exact component={Home}/>
+      <Route path='/confMaps/maps' component={Maps}/>
+      <Route path='/confMaps' exact component={Home}/>
     </Switch>
   );
 }
