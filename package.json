@@ -1,6 +1,6 @@
 {
-  "home": "https://nicocalde.github.io/confMaps/",
   "name": "confmaps",
+  "homepage": "https://nicocalde.github.io/confMaps/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
