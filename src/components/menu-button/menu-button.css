@@ -1,0 +1,42 @@
+.button-container {
+    position: sticky;
+    background-color: #212121;
+    color: #FFFFFF;
+    font-family: roboto;
+    z-index: 2;
+    width: 25%;
+    left: 37%;
+    top: 90%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.floating-button {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 30px;
+    align-items: center;
+    z-index: 2;
+}
+
+.category {
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+@media (400px <= width <= 800px) {
+    .button-container {
+        width: 50%;
+        left: 25%;
+        top: 88%;
+    }
+}
+
+@media (width <= 400px) {
+    .button-container {
+        width: 75%;
+        left: 20%;
+        top: 88%;
+    }
+
+}

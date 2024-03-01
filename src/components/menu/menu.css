@@ -1,0 +1,32 @@
+.menu {
+    position: absolute;
+    transform: translateY(-100%);
+    background-color: #212121;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 55px;
+    border-radius: 25px;
+    z-index: -1;
+}
+
+.category-name {
+    padding: 0px 25px;
+}
+
+.menu-item-button {
+    background-color: rgba(241, 159, 16, 0.3);
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    width: 100%;
+    border: none;
+    margin: 10px 0px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.menu-item-button:active {
+    background-color: #F19F10;
+}
