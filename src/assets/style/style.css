@@ -1,5 +1,6 @@
 .background-container {
     background-color: #212121;
+    position: relative; /* Set the position relative for absolute positioning of text and button */
 }
 
 .desktop {
@@ -9,14 +10,15 @@
 .mobile {
     display: flex;
     height: 100vh;
+    width: 100%;
     z-index: 1;
 }
 
 .text {
     font-family: scope one;
-    position: fixed;
+    position: absolute;
     color: #F19F10;
-    width: 130px;
+    width: 40%;
     top: 17%;
     left: 4%;
     font-size: 12px;
@@ -24,10 +26,11 @@
 }
 
 #link {
-    position: fixed;
+    position: absolute;
     font-family: londrina solid;
     top: 67%;
-    left: 50%;
+    left: 63%;
+    transform: translateX(-50%);
     padding: 11px 35px;
     background-color: #F19F10;
     color: #181818;
@@ -44,7 +47,8 @@
     background-color: #EFC885;
 }
 
-@media (width > 400px) {
+
+@media (min-width: 400px) {
     .mobile {
         display: none;
     }
@@ -58,14 +62,15 @@
 
     .text {
         top: 5%;
-        left: 15%;
-        font-size: 30px;
-        width: 390px;
+        left: 15%; 
+        font-size: 1.5em;
+        width: 30%;
     }
 
     #link {
-        top: 65%;
-        left: 55%;
+        top: 65%; 
+        left: 60%;
+        transform: translateX(-50%);
         padding: 20px 60px;
         font-size: 30px;
     }
